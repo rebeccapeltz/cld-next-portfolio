@@ -1,19 +1,21 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
-export default function VideoPlayer() {
+export default function VideoPlayer({ cloudName, publicId }) {
   useEffect(() => {
     const cld = new cloudinary.Cloudinary({
-      cloud_name: "demo",
+      cloud_name: cloudName,
       secure: true,
     });
     const videoPlayerInit = () => {
-      cld.videoPlayer("vp", {
-        publicId: "race_road_car",
+      const player = cld.videoPlayer("vp", {
         controls: true,
         preload: "auto",
         muted: true,
         autoplay: false,
         width: 300,
+      });
+      player.source(publicId, {
+        sourceTypes: ["hls"],
       });
     };
     videoPlayerInit();
