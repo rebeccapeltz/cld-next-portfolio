@@ -5,16 +5,17 @@ import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+import {MEDIA_MS} from '../lib/constants'
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
+  // console.log("heroPost", heroPost)
   const morePosts = allPosts.slice(1)
   return (
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>Next.js Portfolio Example with {MEDIA_MS}</title>
         </Head>
         <Container>
           <Intro />
@@ -22,8 +23,12 @@ export default function Index({ allPosts }) {
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
+              tagline={heroPost.tagline}
               date={heroPost.date}
               author={heroPost.author}
+              // publicid={heroPost.cloudinary.publicId}
+              // cloudname={heroPost.cloudinary.cloudName}
+              cloudinary={heroPost.cloudinary}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
@@ -38,8 +43,10 @@ export default function Index({ allPosts }) {
 export async function getStaticProps() {
   const allPosts = getAllPosts([
     'title',
+    'tagline',
     'date',
     'slug',
+    'cloudinary',
     'author',
     'coverImage',
     'excerpt',

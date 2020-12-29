@@ -1,17 +1,18 @@
 ---
-title: 'Preview Mode for Static Generation'
+title: 'Living Room'
+tagline: "Living Room For Everybody."
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/preview/cover.jpg'
+coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 cloudinary:
-  cloudName: 'dec-2020-test'
-  publicId: 'living-room'
-  apiKey: '552265519859882'
+  cloudName: 'picturecloud7'
+  publicId: 'nextjs-portfolio/living-room'
+  apiKey: '631476671131724'
 author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
+  name: JJ Kasper
+  picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

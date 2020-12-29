@@ -49,3 +49,18 @@ Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&ut
 # Notes
 
 This blog-starter uses [Tailwind CSS](https://tailwindcss.com). To control the generated stylesheet's filesize, this example uses Tailwind CSS' v1.4 [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+
+
+Media credits
+Photo by Cosmin Paduraru from Pexels
+https://www.pexels.com/photo/abstract-antique-architectural-design-architecture-340981/
+
+Photo by Victoria Borodinova from Pexels
+https://www.pexels.com/photo/sofa-chairs-in-living-room-1648776/
+
+Photo by Jean van der Meulen from Pexels
+https://www.pexels.com/photo/rectangular-white-wooden-table-with-chairs-1457841/
+
+Photo by Dmitry Zvolskiy from Pexels
+https://www.pexels.com/photo/chopping-boards-near-oven-under-hood-2062426/
+

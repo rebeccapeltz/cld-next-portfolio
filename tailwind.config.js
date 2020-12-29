@@ -22,7 +22,7 @@ module.exports = {
         '5xl': '2.5rem',
         '6xl': '2.75rem',
         '7xl': '4.5rem',
-        '8xl': '6.25rem',
+        '8xl': '5.25rem',
       },
       boxShadow: {
         small: '0 5px 10px rgba(0, 0, 0, 0.12)',

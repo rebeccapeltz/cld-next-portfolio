@@ -2,8 +2,9 @@ import Avatar from '../components/avatar'
 import DateFormatter from '../components/date-formatter'
 import CoverImage from '../components/cover-image'
 import PostTitle from '../components/post-title'
+import Tagline from '../components/tag-line'
 
-export default function PostHeader({ title, coverImage, date, author }) {
+export default function PostHeader({ title, tagline, coverImage, date, author }) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -18,7 +19,7 @@ export default function PostHeader({ title, coverImage, date, author }) {
           <Avatar name={author.name} picture={author.picture} />
         </div>
         <div className="mb-6 text-lg">
-          <DateFormatter dateString={date} />
+          <Tagline tagline={tagline} />
         </div>
       </div>
     </>
