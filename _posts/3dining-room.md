@@ -9,8 +9,10 @@ cloudinary:
   publicId: 'nextjs-portfolio/diningroom'
   apiKey: '552265519859882'
 author:
-  name: Tim Neutkens
+  name: Tina Neutkens
   picture: '/assets/blog/authors/tim.jpeg'
+  publicId: "nextjs-portfolio/author2"
+  cloudName: "picturecloud7"
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 ---

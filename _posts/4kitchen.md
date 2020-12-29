@@ -9,8 +9,10 @@ cloudinary:
   publicId: 'nextjs-portfolio/kitchen'
   apiKey: '631476671131724'
 author:
-  name: Joe Haddad
+  name: John Haddad
   picture: '/assets/blog/authors/joe.jpeg'
+  publicId: "nextjs-portfolio/author4"
+  cloudName: "picturecloud7"
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---

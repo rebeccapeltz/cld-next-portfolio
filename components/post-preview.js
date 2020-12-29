@@ -30,7 +30,7 @@ export default function PostPreview({
         <TagLine tagline={tagline} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
+      <Avatar name={author.name} picture={author.picture} publicid={author.publicId} cloudname={author.cloudName} />
     </div>
   )
 }

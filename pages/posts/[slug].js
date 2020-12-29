@@ -45,6 +45,7 @@ export default function Post({ post, morePosts, preview }) {
               </Head>
               <PostHeader
                 title={post.title}
+                cloudinary={post.cloudinary}
                 tagline={post.tagline}
                 coverImage={post.coverImage}
                 date={post.date}

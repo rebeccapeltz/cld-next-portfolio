@@ -64,3 +64,21 @@ https://www.pexels.com/photo/rectangular-white-wooden-table-with-chairs-1457841/
 Photo by Dmitry Zvolskiy from Pexels
 https://www.pexels.com/photo/chopping-boards-near-oven-under-hood-2062426/
 
+Photo by Terry Magallanes from Pexels
+https://www.pexels.com/photo/photo-of-a-bathroom-2988865/
+
+Photo by Tarzine Jackson from Pexels
+https://www.pexels.com/photo/woman-wearing-eyeglasses-773371/
+
+Photo by Marcelo Dias from Pexels
+https://www.pexels.com/photo/photo-of-girl-wearing-brown-shirt-2104252/
+
+Photo by nappy from Pexels
+https://www.pexels.com/photo/grayscale-photography-of-man-wearing-blazer-dress-shirt-and-necktie-935969/
+
+Photo by Wallace Chuck from Pexels
+https://www.pexels.com/photo/man-wearing-blue-crew-neck-shirt-2287252/
+
+Photo by Rodolfo Quirós from Pexels
+https://www.pexels.com/photo/woman-wearing-round-eyeglasses-1727273/
+

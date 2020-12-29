@@ -9,8 +9,10 @@ cloudinary:
   publicId: "nextjs-portfolio/stairs"
   apiKey: "631476671131724"
 author:
-  name: JJ Kasper
+  name: KK Kasper
   picture: "/assets/blog/authors/jj.jpeg"
+  publicId: "nextjs-portfolio/author1"
+  cloudName: "picturecloud7"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
