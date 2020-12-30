@@ -46,6 +46,7 @@ export default function Post({ post, morePosts, preview }) {
               <PostHeader
                 title={post.title}
                 cloudinary={post.cloudinary}
+                video={post.video}
                 tagline={post.tagline}
                 coverImage={post.coverImage}
                 date={post.date}
@@ -65,6 +66,7 @@ export async function getStaticProps({ params }) {
     'title',
     'tagline',
     'date',
+    'video',
     'slug',
     'cloudinary',
     'author',

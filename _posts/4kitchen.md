@@ -1,9 +1,10 @@
 ---
 title: 'Kitchen'
-tagline: "Inspired By Kitchen."
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+tagline: 'Inspired By Kitchen.'
+excerpt: '4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
+video: 'nextjs-portfolio/kitchen-vid'
 cloudinary:
   cloudName: 'picturecloud7'
   publicId: 'nextjs-portfolio/kitchen'
@@ -11,8 +12,8 @@ cloudinary:
 author:
   name: John Haddad
   picture: '/assets/blog/authors/joe.jpeg'
-  publicId: "nextjs-portfolio/author4"
-  cloudName: "picturecloud7"
+  publicId: 'nextjs-portfolio/author4'
+  cloudName: 'picturecloud7'
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---

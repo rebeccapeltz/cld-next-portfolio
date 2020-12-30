@@ -82,3 +82,23 @@ https://www.pexels.com/photo/man-wearing-blue-crew-neck-shirt-2287252/
 Photo by Rodolfo Quirós from Pexels
 https://www.pexels.com/photo/woman-wearing-round-eyeglasses-1727273/
 
+
+Video by Sam Jae from Pexels
+https://www.pexels.com/video/washing-hands-on-the-bathroom-sink-5942152/
+
+Video by Ketut Subiyanto from Pexels
+https://www.pexels.com/video/person-climbing-the-stairs-4804832/
+
+Video by Taryn Elliott from Pexels
+https://www.pexels.com/video/a-young-woman-working-at-home-with-a-laptop-4112424/
+
+Video by Curtis Adams from Pexels
+https://www.pexels.com/video/interior-design-of-a-modern-home-kitchen-3773488/
+
+Video by cottonbro from Pexels
+https://www.pexels.com/video/people-talking-in-kitchen-4781506/
+
+
+videos in post body?
+authors->designers
+remove api key
