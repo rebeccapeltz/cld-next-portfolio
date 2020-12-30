@@ -9,7 +9,7 @@ cloudinary:
   publicId: "nextjs-portfolio/stairs"
   apiKey: "631476671131724"
 author:
-  name: KK Kasper
+  name: Sarah Sharpe
   picture: "/assets/blog/authors/jj.jpeg"
   publicId: "nextjs-portfolio/author1"
   cloudName: "picturecloud7"
