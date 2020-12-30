@@ -8,7 +8,6 @@ video: "nextjs-portfolio/kitchen-vid"
 cloudinary:
   cloudName: "pictures77"
   publicId: "nextjs-portfolio/kitchen"
-  apiKey: "631476671131724"
 designer:
   name: John Haddad
   picture: "/assets/blog/designers/joe.jpeg"

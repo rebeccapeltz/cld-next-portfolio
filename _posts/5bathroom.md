@@ -8,7 +8,6 @@ video: "nextjs-portfolio/bathroom-vid"
 cloudinary:
   cloudName: "pictures77"
   publicId: "nextjs-portfolio/bathroom"
-  apiKey: "631476671131724"
 designer:
   name: R Jenkins
   picture: "/assets/blog/designers/joe.jpeg"

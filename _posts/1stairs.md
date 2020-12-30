@@ -8,7 +8,6 @@ video: "nextjs-portfolio/stairs-vid"
 cloudinary:
   cloudName: "pictures77"
   publicId: "nextjs-portfolio/stairs"
-  apiKey: "631476671131724"
 designer:
   name: "Sarah Sharpe"
   picture: "/assets/blog/designers/jj.jpeg"

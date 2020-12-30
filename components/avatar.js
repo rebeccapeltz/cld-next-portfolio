@@ -12,6 +12,7 @@ export default function Avatar({ name, picture, publicid, cloudname }) {
     crop="fill"
     gravity="auto"
     fetch_format="auto"
+    secure="true"
   />
 {/* <p>{publicid}, {cloudname}</p> */}
       <div className="text-xl font-bold">{name}</div>

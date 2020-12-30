@@ -96,6 +96,6 @@ https://www.pexels.com/video/interior-design-of-a-modern-home-kitchen-3773488/
 Video by cottonbro from Pexels
 https://www.pexels.com/video/people-talking-in-kitchen-4781506/
 
-videos in post body?
-designers->designers
+
 remove api key
+

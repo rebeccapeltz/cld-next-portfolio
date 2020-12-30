@@ -8,7 +8,6 @@ video: "nextjs-portfolio/livingroom-vid"
 cloudinary:
   cloudName: "pictures77"
   publicId: "nextjs-portfolio/living-room"
-  apiKey: "631476671131724"
 designer:
   name: Ben Johnson
   picture: "/assets/blog/designers/jj.jpeg"

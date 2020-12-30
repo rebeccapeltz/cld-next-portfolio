@@ -8,7 +8,6 @@ video: "nextjs-portfolio/dining-vid"
 cloudinary:
   cloudName: "pictures77"
   publicId: "nextjs-portfolio/diningroom"
-  apiKey: "552265519859882"
 designer:
   name: Tina Neutkens
   picture: "/assets/blog/designers/tim.jpeg"

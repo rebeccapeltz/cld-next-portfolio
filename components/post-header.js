@@ -37,7 +37,7 @@ export default function PostHeader({
           <Tagline tagline={tagline} />
         </div>
         <div>
-          <Video controls cloudName={cloudinary.cloudName} publicId={video}>
+          <Video controls cloudName={cloudinary.cloudName} publicId={video} secure="true">
             <Transformation duration="3" />
           </Video>
         </div>

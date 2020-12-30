@@ -19,6 +19,7 @@ export default function CoverImage({ title, src, slug, publicid, cloudname }) {
     crop="fill"
     gravity="auto"
     fetch_format="auto"
+    secure="true"
   />
   )
   return (
