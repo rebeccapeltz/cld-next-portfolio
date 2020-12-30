@@ -1,21 +1,21 @@
 ---
-title: 'Dining Room'
+title: "Dining Room"
 tagline: "Dining Room, When There's Nothing Else."
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/hello-world/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
-video: 'nextjs-portfolio/dining-vid'
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+coverImage: "/assets/blog/hello-world/cover.jpg"
+date: "2020-03-16T05:35:07.322Z"
+video: "nextjs-portfolio/dining-vid"
 cloudinary:
-  cloudName: 'picturecloud7'
-  publicId: 'nextjs-portfolio/diningroom'
-  apiKey: '552265519859882'
-author:
+  cloudName: "pictures77"
+  publicId: "nextjs-portfolio/diningroom"
+  apiKey: "552265519859882"
+designer:
   name: Tina Neutkens
-  picture: '/assets/blog/authors/tim.jpeg'
-  publicId: "nextjs-portfolio/author2"
-  cloudName: "picturecloud7"
+  picture: "/assets/blog/designers/tim.jpeg"
+  publicId: "nextjs-portfolio/designer2"
+  cloudName: "pictures77"
 ogImage:
-  url: '/assets/blog/hello-world/cover.jpg'
+  url: "/assets/blog/hello-world/cover.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

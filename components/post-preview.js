@@ -1,8 +1,8 @@
-import Avatar from '../components/avatar'
-import DateFormatter from '../components/date-formatter'
-import CoverImage from './cover-image'
-import Link from 'next/link'
-import TagLine from '../components/tag-line'
+import Avatar from "../components/avatar";
+import DateFormatter from "../components/date-formatter";
+import CoverImage from "./cover-image";
+import Link from "next/link";
+import TagLine from "../components/tag-line";
 
 export default function PostPreview({
   title,
@@ -11,13 +11,19 @@ export default function PostPreview({
   date,
   excerpt,
   cloudinary,
-  author,
+  designer,
   slug,
 }) {
   return (
     <div>
       <div className="mb-5">
-      <CoverImage title={title} src={coverImage} slug={slug} publicid={cloudinary.publicId} cloudname={cloudinary.cloudName}/>
+        <CoverImage
+          title={title}
+          src={coverImage}
+          slug={slug}
+          publicid={cloudinary.publicId}
+          cloudname={cloudinary.cloudName}
+        />
 
         {/* <CoverImage slug={slug} title={title} src={coverImage} /> */}
       </div>
@@ -30,7 +36,12 @@ export default function PostPreview({
         <TagLine tagline={tagline} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} publicid={author.publicId} cloudname={author.cloudName} />
+      <Avatar
+        name={designer.name}
+        picture={designer.picture}
+        publicid={designer.publicId}
+        cloudname={designer.cloudName}
+      />
     </div>
-  )
+  );
 }

@@ -50,7 +50,6 @@ Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&ut
 
 This blog-starter uses [Tailwind CSS](https://tailwindcss.com). To control the generated stylesheet's filesize, this example uses Tailwind CSS' v1.4 [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
 
-
 Media credits
 Photo by Cosmin Paduraru from Pexels
 https://www.pexels.com/photo/abstract-antique-architectural-design-architecture-340981/
@@ -82,7 +81,6 @@ https://www.pexels.com/photo/man-wearing-blue-crew-neck-shirt-2287252/
 Photo by Rodolfo Quirós from Pexels
 https://www.pexels.com/photo/woman-wearing-round-eyeglasses-1727273/
 
-
 Video by Sam Jae from Pexels
 https://www.pexels.com/video/washing-hands-on-the-bathroom-sink-5942152/
 
@@ -98,7 +96,6 @@ https://www.pexels.com/video/interior-design-of-a-modern-home-kitchen-3773488/
 Video by cottonbro from Pexels
 https://www.pexels.com/video/people-talking-in-kitchen-4781506/
 
-
 videos in post body?
-authors->designers
+designers->designers
 remove api key

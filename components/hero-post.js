@@ -1,8 +1,8 @@
-import Avatar from '../components/avatar'
-import DateFormatter from '../components/date-formatter'
-import CoverImage from '../components/cover-image'
-import Link from 'next/link'
-import TagLine from './tag-line'
+import Avatar from "../components/avatar";
+import DateFormatter from "../components/date-formatter";
+import CoverImage from "../components/cover-image";
+import Link from "next/link";
+import TagLine from "./tag-line";
 
 export default function HeroPost({
   title,
@@ -10,14 +10,20 @@ export default function HeroPost({
   coverImage,
   date,
   excerpt,
-  author,
+  designer,
   cloudinary,
   slug,
 }) {
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        <CoverImage title={title} src={coverImage} slug={slug} publicid={cloudinary.publicId} cloudname={cloudinary.cloudName}/>
+        <CoverImage
+          title={title}
+          src={coverImage}
+          slug={slug}
+          publicid={cloudinary.publicId}
+          cloudname={cloudinary.cloudName}
+        />
       </div>
       <div className="md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-20 md:mb-28">
         <div>
@@ -32,9 +38,14 @@ export default function HeroPost({
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} publicid={author.publicId} cloudname={author.cloudName} />
+          <Avatar
+            name={designer.name}
+            picture={designer.picture}
+            publicid={designer.publicId}
+            cloudname={designer.cloudName}
+          />
         </div>
       </div>
     </section>
-  )
+  );
 }

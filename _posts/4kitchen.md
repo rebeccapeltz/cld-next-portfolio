@@ -1,21 +1,21 @@
 ---
-title: 'Kitchen'
-tagline: 'Inspired By Kitchen.'
-excerpt: '4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/preview/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
-video: 'nextjs-portfolio/kitchen-vid'
+title: "Kitchen"
+tagline: "Inspired By Kitchen."
+excerpt: "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+coverImage: "/assets/blog/preview/cover.jpg"
+date: "2020-03-16T05:35:07.322Z"
+video: "nextjs-portfolio/kitchen-vid"
 cloudinary:
-  cloudName: 'picturecloud7'
-  publicId: 'nextjs-portfolio/kitchen'
-  apiKey: '631476671131724'
-author:
+  cloudName: "pictures77"
+  publicId: "nextjs-portfolio/kitchen"
+  apiKey: "631476671131724"
+designer:
   name: John Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
-  publicId: 'nextjs-portfolio/author4'
-  cloudName: 'picturecloud7'
+  picture: "/assets/blog/designers/joe.jpeg"
+  publicId: "nextjs-portfolio/designer4"
+  cloudName: "pictures77"
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: "/assets/blog/preview/cover.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
