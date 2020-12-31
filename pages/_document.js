@@ -5,11 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link
-            rel="preload"
-            as="style"
-            href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css"
-          />
+        <link href="https://unpkg.com/cloudinary-video-player@1.5.1/dist/cld-video-player.min.css" rel="stylesheet" />
           {/* <link rel="preload" as="script" type="text/javascript" src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" />
         <link rel="preload" as="script" type="text/javascript"  src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js" /> */}
         </Head>
