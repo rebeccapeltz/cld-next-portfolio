@@ -101,5 +101,8 @@ Video by cottonbro from Pexels
 https://www.pexels.com/video/people-talking-in-kitchen-4781506/
 
 
-remove api key
+## Problems
+Loading video player scripts in body
+
+https://github.com/vercel/next.js/discussions/11007
 
