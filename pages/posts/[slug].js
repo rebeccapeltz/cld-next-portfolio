@@ -49,7 +49,7 @@ export default function Post({ post, morePosts, preview }) {
                 video={post.video}
                 tagline={post.tagline}
                 coverImage={post.coverImage}
-                date={post.date}
+                postNumber={post.postNumber}
                 designer={post.designer}
               />
               <PostBody content={post.content} />

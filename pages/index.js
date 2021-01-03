@@ -24,10 +24,8 @@ export default function Index({ allPosts }) {
               title={heroPost.title}
               coverImage={heroPost.coverImage}
               tagline={heroPost.tagline}
-              date={heroPost.date}
+              postNumber={heroPost.postNumber}
               designer={heroPost.designer}
-              // publicid={heroPost.cloudinary.publicId}
-              // cloudname={heroPost.cloudinary.cloudName}
               cloudinary={heroPost.cloudinary}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
@@ -44,7 +42,7 @@ export async function getStaticProps() {
   const allPosts = getAllPosts([
     "title",
     "tagline",
-    "date",
+    "postNumber",
     "slug",
     "cloudinary",
     "designer",

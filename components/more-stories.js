@@ -14,7 +14,7 @@ export default function MoreStories({ posts }) {
             cloudinary={post.cloudinary}
             title={post.title}
             coverImage={post.coverImage}
-            date={post.date}
+            postNumber={post.postNumber}
             designer={post.designer}
             slug={post.slug}
             excerpt={post.excerpt}

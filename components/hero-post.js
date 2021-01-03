@@ -1,5 +1,4 @@
 import Avatar from "../components/avatar";
-import DateFormatter from "../components/date-formatter";
 import CoverImage from "../components/cover-image";
 import Link from "next/link";
 import TagLine from "./tag-line";
@@ -8,7 +7,7 @@ export default function HeroPost({
   title,
   tagline,
   coverImage,
-  date,
+  postNumber,
   excerpt,
   designer,
   cloudinary,

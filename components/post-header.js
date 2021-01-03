@@ -1,6 +1,4 @@
 import Avatar from "../components/avatar";
-import DateFormatter from "../components/date-formatter";
-import CoverImage from "../components/cover-image";
 import PostTitle from "../components/post-title";
 import Tagline from "../components/tag-line";
 import { Video, Transformation } from "cloudinary-react";

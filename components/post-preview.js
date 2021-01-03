@@ -1,5 +1,4 @@
 import Avatar from "../components/avatar";
-import DateFormatter from "../components/date-formatter";
 import CoverImage from "./cover-image";
 import Link from "next/link";
 import TagLine from "../components/tag-line";
@@ -8,7 +7,7 @@ export default function PostPreview({
   title,
   tagline,
   coverImage,
-  date,
+  postNumber,
   excerpt,
   cloudinary,
   designer,
