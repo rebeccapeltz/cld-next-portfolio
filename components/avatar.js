@@ -1,7 +1,7 @@
-import {Image} from 'cloudinary-react'
+import { Image } from 'cloudinary-react';
 export default function Avatar({ name, picture, publicid, cloudname }) {
   return (
-    <div className="flex items-center">
+    <div className='flex items-center'>
       {/* <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} /> */}
 
       <Image className="w-12 h-12 rounded-full mr-4" alt={name} 
@@ -14,8 +14,7 @@ export default function Avatar({ name, picture, publicid, cloudname }) {
     fetch_format="auto"
     secure="true"
   />
-{/* <p>{publicid}, {cloudname}</p> */}
-      <div className="text-xl font-bold">{name}</div>
+      <div className='text-xl font-bold'>{name}</div>
     </div>
-  )
+  );
 }

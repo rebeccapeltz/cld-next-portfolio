@@ -4,7 +4,7 @@ tagline: "Dining Room, When There's Nothing Else."
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
 coverImage: "/assets/blog/hello-world/cover.jpg"
 postNumber: "3"
-video: "nextjs-portfolio/dining-vid"
+video: "nextjs-portfolio/diningroom-vid"
 cloudinary:
   cloudName: "pictures77"
   publicId: "nextjs-portfolio/diningroom"

@@ -27,7 +27,7 @@ export default function Post({ post, morePosts, preview }) {
           <>
             {/* <p>{post.cloudinary.cloudName}</p>
               <p>{post.cloudinary.publicId}</p> */}
-            <Image
+            {/* <Image
               cloudName={post.cloudinary.cloudName}
               publicId={post.cloudinary.publicId}
               width="2000"
@@ -35,7 +35,7 @@ export default function Post({ post, morePosts, preview }) {
               crop="fill"
               gravity="auto"
               fetch_format="auto"
-            />
+            /> */}
             <article className="mb-32">
               <Head>
                 <title>

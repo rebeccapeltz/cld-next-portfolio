@@ -1,6 +1,6 @@
-import Avatar from "../components/avatar";
-import CoverImage from "../components/cover-image";
-import Link from "next/link";
+import Avatar from '../components/avatar'
+import CoverImage from '../components/cover-image'
+import Link from 'next/link'
 import TagLine from "./tag-line";
 
 export default function HeroPost({
@@ -18,21 +18,20 @@ export default function HeroPost({
       <div className="mb-8 md:mb-16">
         <CoverImage
           title={title}
-          src={coverImage}
           slug={slug}
           publicid={cloudinary.publicId}
           cloudname={cloudinary.cloudName}
         />
       </div>
-      <div className="md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-20 md:mb-28">
+      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div>
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
-            <Link as={`/posts/${slug}`} href="/posts/[slug]">
+            <Link href={`/posts/${slug}`}>
               <a className="hover:underline">{title}</a>
             </Link>
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
-            <TagLine tagline={tagline} />
+          <TagLine tagline={tagline} />
           </div>
         </div>
         <div>
@@ -46,5 +45,5 @@ export default function HeroPost({
         </div>
       </div>
     </section>
-  );
+  )
 }

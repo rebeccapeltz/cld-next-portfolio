@@ -39,7 +39,7 @@ function update(publicId) {
 }
 
 const publicIds = [
-  "nextjs-portfolio/dining-vid",
+  "nextjs-portfolio/diningroom-vid",
   "nextjs-portfolio/kitchen-vid",
   "nextjs-portfolio/livingroom-vid",
   "nextjs-portfolio/stairs-vid",
