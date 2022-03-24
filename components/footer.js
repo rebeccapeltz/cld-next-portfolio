@@ -1,4 +1,5 @@
 import Container from './container';
+import Link from 'next/link';
 import {
   EXPLAINER_VIDEO_PUBLIC_ID,
   EXPLAINER_VIDEO_CLOUD_NAME,
@@ -26,28 +27,11 @@ export default function Footer() {
     <footer className='bg-accent-1 border-t border-accent-2'>
       <Container>
         <div className='flex flex-col lg:flex-row justify-center items-center lg:pl-4 '>
-          <section className='flex flex-col justify-center items-center lg:pl-4'>
-            <h3 className='text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4'>
-              Watch our video.
-            </h3>
-          </section>
-          <section  className='flex flex-col justify-center items-center lg:pl-4'>
-          <div className='flex grow space-x-4'>
-            <DynamicNativeVideo
-              publicId={EXPLAINER_VIDEO_PUBLIC_ID}
-              cloudName={EXPLAINER_VIDEO_CLOUD_NAME}
-            />
-            {/* <VideoPlayer
-              publicId={EXPLAINER_VIDEO_PUBLIC_ID}
-              cloudName={EXPLAINER_VIDEO_CLOUD_NAME}
-            /> */}
-            </div>
-          </section>
-          <section className='flex flex-col justify-center items-center lg:pl-4'>
+          <section className='flex flex-col justify-self-auto items-center lg:pl-4'>
             <h3 className='text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4'>
               Connect with us.
             </h3>
-            <div className='flex space-x-4'>
+            <div className='flex space-x-4 mb-1 mt-1'>
               <div>
                 <FontAwesomeIcon icon={faTwitter} />{' '}
               </div>
@@ -64,11 +48,31 @@ export default function Footer() {
               </div>
             </div>
           </section>
+          <section className='flex flex-col grow justify-center items-center lg:pl-4'>
+            <h3 className='text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4'>
+              Watch our video.
+            </h3>
+            <DynamicNativeVideo
+              publicId={EXPLAINER_VIDEO_PUBLIC_ID}
+              cloudName={EXPLAINER_VIDEO_CLOUD_NAME}
+            />
+          </section>
           <section className='flex flex-col justify-center items-center lg:pl-4'>
             <h3 className='text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4'>
               Share with us.
             </h3>
-            </section>
+            {/* <Link href={`/share`}>
+          <a aria-label={title}>{image}</a>
+        </Link> */}
+
+            <div className='text-2xl md:text-2xl font-bold tracking-tight md:tracking-tighter leading-tight mb-1 mt-1'>
+              <Link href='/share'>
+                <a className='hover:underline'>Upload Images</a>
+              </Link>
+            </div>
+
+            {/* <div class="text-xl font-bold">Upload Images</div> */}
+          </section>
         </div>
       </Container>
     </footer>

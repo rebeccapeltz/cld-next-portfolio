@@ -13,3 +13,7 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+.hero-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -2,14 +2,14 @@ import cn from 'classnames'
 import Link from 'next/link'
 import {Image} from 'cloudinary-react'
 
-export default function CoverImage({ title, slug, publicid, cloudname }) {
+export default function PostImage({ title, slug, publicid, cloudname }) {
   const image = (
      
     <Image
     publicId={publicid}
     cloudName={cloudname}
     width="2000"
-    height="550"
+    height="1000"
     crop="fill"
     gravity="auto"
     fetch_format="auto"

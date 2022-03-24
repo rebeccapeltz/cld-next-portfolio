@@ -2,7 +2,7 @@ import Avatar from '../components/avatar';
 import PostTitle from '../components/post-title';
 import Tagline from '../components/tag-line';
 import { Video, Transformation } from 'cloudinary-react';
-import CoverImage from './cover-image';
+import PostImage from './post-image';
 
 export default function PostHeader({
   title,
@@ -24,7 +24,7 @@ export default function PostHeader({
         />
       </div>
       <div className='mb-8 md:mb-16 sm:mx-0'>
-        <CoverImage
+        <PostImage
           title={title}
           slug={slug}
           publicid={cloudinary.publicId}
