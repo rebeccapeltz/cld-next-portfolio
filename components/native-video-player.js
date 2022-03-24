@@ -4,7 +4,6 @@ import { Cloudinary } from "cloudinary-core";
 import { useEffect } from "react";
 
 const NativeVideoPlayer = ({ cloudName, publicId }) => {
-    debugger
   const cld = new Cloudinary({ cloud_name: cloudName });
   useEffect(() => {
     const videoPlayer = cld.videoPlayer("video-player", {
