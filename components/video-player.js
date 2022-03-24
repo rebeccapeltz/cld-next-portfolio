@@ -1,3 +1,6 @@
+// import "cloudinary-video-player/dist/cld-video-player.min.js";
+// import "cloudinary-video-player/dist/cld-video-player.min.css";
+// import { cloudinary } from "cloudinary-core";
 import React, { useEffect } from "react";
 
 export default function VideoPlayer({ cloudName, publicId }) {

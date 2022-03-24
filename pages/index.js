@@ -9,7 +9,6 @@ import { MEDIA_MS } from "../lib/constants";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
-  // console.log("heroPost", heroPost)
   const morePosts = allPosts.slice(1);
   return (
     <>
