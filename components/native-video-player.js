@@ -9,17 +9,17 @@ const NativeVideoPlayer = ({ cloudName, publicId }) => {
     const videoPlayer = cld.videoPlayer('video-player', {
       muted: true,
       controls: true,
-        width: 300
-    //   width: '100%',
+        // width: 300
+      width: '100%',
     });
     videoPlayer.source(publicId, {
       sourceTypes: ['hls'],
     });
-  });
+  },[])
   return (
-    <div>
-      {/* <video className='cld-video-player cld-fluid' id='video-player' /> */}
-      <video className='cld-video-player' id='video-player' />
+    <div className='mb-5 explainer-video-container'>
+      <video className='cld-video-player cld-fluid' id='video-player' />
+      {/* <video className='cld-video-player' id='video-player' /> */}
     </div>
   );
 };

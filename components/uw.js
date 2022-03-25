@@ -1,11 +1,15 @@
 import React from 'react';
 import UploadWidgetButton from './uw-button';
+import dynamic from 'next/dynamic';
 
+const DynamicGallery = dynamic(() => import('../components/share-gallery'), {
+  ssr: false,
+});
 
 function UploadWidget({ cloudname }) {
-  const childFunc = () => {
+  const uploadOpen = () => {
     console.log('call me!');
-    uploadWidget.open()
+    uploadWidget.open();
   };
   const uploadWidget = window.cloudinary.createUploadWidget(
     {
@@ -14,25 +18,18 @@ function UploadWidget({ cloudname }) {
     },
     (error, result) => {
       if (!error && result && result.event === 'success') {
-        // debugger;
         console.log('Done! Here is the image info: ', result.info);
-        document.getElementById('uploaded').src=result.info.secure_url;
+        //need to refresh gallery
       }
     }
   );
 
-
-
   return (
     <div>
-      <h3>Using an unsigned preset that posts to a webhook</h3>
-      <UploadWidgetButton func={childFunc} />
-      <div id='upload-widget'></div>
-      <div>
-        <img id='uploaded' />
-      </div>
+       <h4 className="text-center md:text-left text-lg mt-5 mb-5">Use Cloudinary Upload Widget to Upload and share images.</h4>
+      <UploadWidgetButton func={uploadOpen} />
+      <DynamicGallery />
     </div>
   );
 }
 export default UploadWidget;
-

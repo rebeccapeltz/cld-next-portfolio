@@ -6,9 +6,7 @@ import dynamic from 'next/dynamic';
 const DynamicNativeVideo = dynamic(() => import('./native-video-player'), {
   ssr: false,
 });
-// const DynamicVideo = dynamic(() => import('./video-player'), {
-//   ssr: false,
-// });
+
 
 import {
   faTwitter,
