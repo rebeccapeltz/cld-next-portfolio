@@ -27,7 +27,7 @@ function update(publicId) {
       "https://webhook.site/0a6a349c-aa0b-4e24-b168-709722890bbb",
   };
 
-  console.log("ready to run");
+
   cloudinary.uploader
     .explicit(publicId, options)
     .then((result) => {
