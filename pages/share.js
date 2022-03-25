@@ -1,8 +1,6 @@
-import { useRouter } from 'next/router';
 import Container from '../components/container';
 import Header from '../components/header';
 import Layout from '../components/layout';
-import { EXPLAINER_VIDEO_CLOUD_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 import ShareHeader from '../components/share-header'
 
 import dynamic from 'next/dynamic';
@@ -17,9 +15,9 @@ export default function Share() {
         <Header />
         <article className='mb-32'>
           <title>Share Images: Upload to Cloudinary</title>
-          <meta property='og:image' content={HOME_OG_IMAGE_URL} />
+          <meta property='og:image' content={process.env.homeOGImageURL} />
           <ShareHeader/>
-          <DynamicUploadWidget cloudname={EXPLAINER_VIDEO_CLOUD_NAME} />
+          <DynamicUploadWidget cloudname={process.env.explainerVideoPublicId} />
 
         </article>
       </Container>

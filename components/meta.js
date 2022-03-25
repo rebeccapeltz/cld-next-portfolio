@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+
 
 export default function Meta() {
   return (
@@ -34,13 +34,13 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content={`A statically generated blog example using Next.js and ${process.env.cmsName}.`}
       />    
      <meta property="og:type" content="website" />         
       <meta property="og:site_name" content="Cloudinary Next Portfolio" />
       <meta property="og:title" content="Cloudinary Next Portfolio" />
-      <meta property="og:description" content="An interior design portolfio built with Next.js and Cloudinary" /> <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:description" content="An interior design portolfio built with Next.js and Cloudinary" /> <meta property="og:image" content={process.env.homeOGImageURL} />
+      <meta property="og:image" content={process.env.homeOGImageURL} />
     </Head>
   )
 }

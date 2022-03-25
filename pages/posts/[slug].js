@@ -8,7 +8,6 @@ import Layout from '../../components/layout';
 import { getPostBySlug, getAllPosts } from '../../lib/api';
 import PostTitle from '../../components/post-title';
 import Head from 'next/head';
-import { MEDIA_MS } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
 import { Image } from 'cloudinary-react';
 
@@ -28,7 +27,7 @@ export default function Post({ post, morePosts, preview }) {
             <article className='mb-32'>
               <Head>
                 <title>
-                  {post.title} | Next.js Portfolio Example with {MEDIA_MS}
+                  {post.title} | Next.js Portfolio Example with {process.env.mediaMs}
                 </title>
                 <meta property='og:image' content={post.ogImage.url} />
               </Head>

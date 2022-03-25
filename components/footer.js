@@ -1,9 +1,5 @@
 import Container from './container';
 import Link from 'next/link';
-import {
-  EXPLAINER_VIDEO_PUBLIC_ID,
-  CLOUDINARY_CLOUD_NAME,
-} from '../lib/constants';
 import VideoPlayer from './video-player';
 
 import dynamic from 'next/dynamic';
@@ -53,8 +49,8 @@ export default function Footer() {
               Watch our video.
             </h3>
             <DynamicNativeVideo
-              publicId={EXPLAINER_VIDEO_PUBLIC_ID}
-              cloudName={CLOUDINARY_CLOUD_NAME}
+              publicId={process.env.explainerVideoPublicId}
+              cloudName={process.env.cloudname}
             />
           </section>
           <section className='flex flex-col justify-center items-center lg:pl-4'>

@@ -5,7 +5,7 @@ import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
-import { MEDIA_MS } from "../lib/constants";
+
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -14,7 +14,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Next.js Portfolio Example with {MEDIA_MS}</title>
+          <title>Next.js Portfolio Example with {process.env.mediaMs}</title>
         </Head>
         <Container>
           <Intro />

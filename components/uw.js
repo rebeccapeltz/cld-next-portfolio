@@ -1,16 +1,16 @@
 import React from 'react';
 import UploadWidgetButton from './uw-button';
 
+
 function UploadWidget({ cloudname }) {
   const childFunc = () => {
     console.log('call me!');
     uploadWidget.open()
   };
-
   const uploadWidget = window.cloudinary.createUploadWidget(
     {
-      cloudName: 'pictures77',
-      uploadPreset: 'nextjs-portfolio-preset',
+      cloudName: process.env.cloudname,
+      uploadPreset: process.env.unsignedUploadPreset,
     },
     (error, result) => {
       if (!error && result && result.event === 'success') {
@@ -20,6 +20,8 @@ function UploadWidget({ cloudname }) {
       }
     }
   );
+
+
 
   return (
     <div>

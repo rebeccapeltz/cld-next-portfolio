@@ -12,7 +12,6 @@ const NativeVideoPlayer = ({ cloudName, publicId }) => {
         width: 300
     //   width: '100%',
     });
-    // videoPlayer.source(publicId);
     videoPlayer.source(publicId, {
       sourceTypes: ['hls'],
     });
