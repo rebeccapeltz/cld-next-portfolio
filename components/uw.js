@@ -14,7 +14,7 @@ function UploadWidget({ cloudname }) {
     },
     (error, result) => {
       if (!error && result && result.event === 'success') {
-        debugger;
+        // debugger;
         console.log('Done! Here is the image info: ', result.info);
         document.getElementById('uploaded').src=result.info.secure_url;
       }

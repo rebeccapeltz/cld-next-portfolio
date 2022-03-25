@@ -11,8 +11,6 @@ const DynamicUploadWidget = dynamic(() => import('../components/uw'), {
   ssr: false,
 });
 export default function Share() {
-  const router = useRouter();
-
   return (
     <Layout>
       <Container>

@@ -2,7 +2,7 @@ import Container from './container';
 import Link from 'next/link';
 import {
   EXPLAINER_VIDEO_PUBLIC_ID,
-  EXPLAINER_VIDEO_CLOUD_NAME,
+  CLOUDINARY_CLOUD_NAME,
 } from '../lib/constants';
 import VideoPlayer from './video-player';
 
@@ -54,7 +54,7 @@ export default function Footer() {
             </h3>
             <DynamicNativeVideo
               publicId={EXPLAINER_VIDEO_PUBLIC_ID}
-              cloudName={EXPLAINER_VIDEO_CLOUD_NAME}
+              cloudName={CLOUDINARY_CLOUD_NAME}
             />
           </section>
           <section className='flex flex-col justify-center items-center lg:pl-4'>

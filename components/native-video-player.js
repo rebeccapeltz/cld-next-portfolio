@@ -1,7 +1,7 @@
 import 'cloudinary-video-player/dist/cld-video-player.min.js';
 import 'cloudinary-video-player/dist/cld-video-player.min.css';
 import { Cloudinary } from 'cloudinary-core';
-import { useEffect } from 'react';
+import { useEffect,memo } from 'react';
 
 const NativeVideoPlayer = ({ cloudName, publicId }) => {
   const cld = new Cloudinary({ cloud_name: cloudName });
@@ -24,4 +24,8 @@ const NativeVideoPlayer = ({ cloudName, publicId }) => {
     </div>
   );
 };
-export default NativeVideoPlayer;
+export default memo(NativeVideoPlayer);
+// export default NativeVideoPlayer;
+
+
+
