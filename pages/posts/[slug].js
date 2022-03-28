@@ -9,7 +9,6 @@ import { getPostBySlug, getAllPosts } from '../../lib/api';
 import PostTitle from '../../components/post-title';
 import Head from 'next/head';
 import markdownToHtml from '../../lib/markdownToHtml';
-import { Image } from 'cloudinary-react';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();

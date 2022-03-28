@@ -3,15 +3,16 @@ import CoverImage from '../components/cover-image'
 import Link from 'next/link'
 import TagLine from "./tag-line";
 
+
 export default function HeroPost({
   title,
-  tagline,
   coverImage,
+  tagline,
   postNumber,
-  excerpt,
   designer,
   cloudinary,
   slug,
+  excerpt
 }) {
   return (
     <section>
@@ -20,7 +21,7 @@ export default function HeroPost({
           title={title}
           slug={slug}
           publicid={cloudinary.publicId}
-          cloudname={cloudinary.cloudName}
+          cloudname={process.env.cloudname}
         />
       </div>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
@@ -40,7 +41,7 @@ export default function HeroPost({
             name={designer.name}
             picture={designer.picture}
             publicid={designer.publicId}
-            cloudname={designer.cloudName}
+            cloudname={process.env.cloudname}
           />
         </div>
       </div>

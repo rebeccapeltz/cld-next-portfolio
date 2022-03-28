@@ -70,6 +70,9 @@ https://www.pexels.com/photo/chopping-boards-near-oven-under-hood-2062426/
 Photo by Terry Magallanes from Pexels
 https://www.pexels.com/photo/photo-of-a-bathroom-2988865/
 
+Video by Polina Kovaleva: 
+https://www.pexels.com/video/the-interior-design-of-a-bedroom-5644278/
+
 Photo by Tarzine Jackson from Pexels
 https://www.pexels.com/photo/woman-wearing-eyeglasses-773371/
 
@@ -100,6 +103,9 @@ https://www.pexels.com/video/interior-design-of-a-modern-home-kitchen-3773488/
 Video by cottonbro from Pexels
 https://www.pexels.com/video/people-talking-in-kitchen-4781506/
 
+[Nico Marks](https://unsplash.com/@nicoxmarks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
+[Unspslash](https://unsplash.com/s/photos/face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
 
 ## Problems
 Loading video player scripts in body

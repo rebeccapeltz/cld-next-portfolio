@@ -7,13 +7,16 @@ const ShareGallery = () => {
 
   const getSharedItems = async () => {
     try {
-      const dataURL = `https://res.cloudinary.com/${process.env.cloudname}/image/list/v${Date.now()}/nextjs-portfolio.json`;
-      // const dataURL = `https://res.cloudinary.com/${process.env.cloudname}/image/list/v1/nextjs-portfolio.json`;
+      const dataURL = `https://res.cloudinary.com/${process.env.cloudname}/image/list/v${Date.now()}/nextjs-portfolio-share.json`;
       // console.log(dataURL);
-
       let data = await fetch(dataURL, { method: 'GET' });
-      let json = await data.json();
-      setItems(json);
+      // if nothing shared status will be 404
+      if (!data || data.status === 404){
+        setItems([])
+      } else {
+        let json = await data.json();
+        setItems(json);
+      }
       setIsLoaded(true);
     } catch (err) {
       console.log('Error loading data');
@@ -32,6 +35,13 @@ const ShareGallery = () => {
   } else if (!isLoaded) {
     return <div>Loading...</div>;
   } else {
+    if (items.length < 1){
+      return (
+        <section className='overflow-hidden text-gray-700 '>
+         No images to share
+      </section>
+      )
+    }
     return (
       <section className='overflow-hidden text-gray-700 '>
         <ShareGalleryItem items={items} />

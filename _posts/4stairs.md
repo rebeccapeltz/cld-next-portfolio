@@ -6,13 +6,11 @@ coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 postNumber: "4"
 video: "nextjs-portfolio/stairs-vid"
 cloudinary:
-  cloudName: "pictures77"
   publicId: "nextjs-portfolio/stairs"
 designer:
   name: "Sarah Sharpe"
   picture: "/assets/blog/designers/jj.jpeg"
   publicId: "nextjs-portfolio/designer1"
-  cloudName: "pictures77"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---

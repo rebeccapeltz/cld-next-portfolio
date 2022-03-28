@@ -1,35 +1,28 @@
-import cn from 'classnames'
-import Link from 'next/link'
-import {Image} from 'cloudinary-react'
+import cn from 'classnames';
+import Link from 'next/link';
+import { Cloudinary } from '@cloudinary/url-gen';
+import Image from 'next/image';
 
 export default function PostImage({ title, slug, publicid, cloudname }) {
-  const image = (
-     
-    <Image
-    publicId={publicid}
-    cloudName={cloudname}
-    width="2000"
-    height="1000"
-    crop="fill"
-    gravity="auto"
-    fetch_format="auto"
-    secure="true"
-    alt={`Cover Image for ${title}`}
-       className={cn('shadow-small', {
-        'hover:shadow-medium transition-shadow duration-200': slug,
-      })}
-  />
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: cloudname,
+      secure: true,
+    },
+  });
 
-  )
+  const cldImage = cld.image(publicid).toURL();
+
+  
   return (
-    <div className="sm:mx-0">
-      {slug ? (
-         <Link href={`/posts/${slug}`}>
-          <a aria-label={title}>{image}</a>
-        </Link>
-      ) : (
-        image
-      )}
+    <div className='sm:mx-0'>
+      <Image
+        src={cldImage}
+        alt={title}
+        width='800px'
+        height='400px'
+        layout='responsive'
+      />
     </div>
-  )
+  );
 }

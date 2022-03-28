@@ -18,7 +18,7 @@ export default function Share() {
           <title>Share Images: Upload to Cloudinary</title>
           <meta property='og:image' content={process.env.homeOGImageURL} />
           <ShareHeader />
-          <DynamicUploadWidget cloudname={process.env.explainerVideoPublicId} />
+          <DynamicUploadWidget />
         
         </article>
       </Container>

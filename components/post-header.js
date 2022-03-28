@@ -1,8 +1,14 @@
 import Avatar from '../components/avatar';
 import PostTitle from '../components/post-title';
 import Tagline from '../components/tag-line';
-import { Video, Transformation } from 'cloudinary-react';
 import PostImage from './post-image';
+
+import CloudinaryVideoElement from './cloudinary-video-element'
+
+import dynamic from 'next/dynamic';
+const DynamicNativeVideo = dynamic(() => import('./native-video-player'), {
+  ssr: false,
+});
 
 export default function PostHeader({
   title,
@@ -20,7 +26,7 @@ export default function PostHeader({
           name={designer.name}
           picture={designer.picture}
           publicid={designer.publicId}
-          cloudname={designer.cloudName}
+          cloudname={process.env.cloudname}
         />
       </div>
       <div className='mb-8 md:mb-16 sm:mx-0'>
@@ -28,7 +34,7 @@ export default function PostHeader({
           title={title}
           slug={slug}
           publicid={cloudinary.publicId}
-          cloudname={cloudinary.cloudName} 
+          cloudname={process.env.cloudname} 
         />
       </div>
 
@@ -38,22 +44,12 @@ export default function PostHeader({
             name={designer.name}
             picture={designer.picture}
             publicid={designer.publicId}
-            cloudname={designer.cloudName}
+            cloudname={process.env.cloudname}
           />
         </div>
         <div className='mb-6 text-lg'>
           <Tagline tagline={tagline} />
         </div>{' '}
-        <div>
-          <Video
-            controls
-            cloudName={cloudinary.cloudName}
-            publicId={video}
-            secure='true'
-          >
-            <Transformation duration='3' />
-          </Video>
-        </div>
       </div>
     </>
   );

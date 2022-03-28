@@ -38,3 +38,6 @@ dist/
 
 package-lock.json
 .env
+.env*
+
+/assets

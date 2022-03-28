@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import UploadWidgetButton from './uw-button';
 import ShareGallery from '../components/share-gallery';
 
-function UploadWidget({ cloudname }) {
+function UploadWidget() {
 
   const [key, setKey] = useState(Date.now());
 

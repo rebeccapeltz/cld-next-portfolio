@@ -6,13 +6,11 @@ coverImage: "/assets/blog/hello-world/cover.jpg"
 postNumber: "3"
 video: "nextjs-portfolio/diningroom-vid"
 cloudinary:
-  cloudName: "pictures77"
   publicId: "nextjs-portfolio/diningroom"
 designer:
   name: Tina Neutkens
   picture: "/assets/blog/designers/tim.jpeg"
   publicId: "nextjs-portfolio/designer2"
-  cloudName: "pictures77"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---

@@ -6,6 +6,7 @@ import { useEffect,memo } from 'react';
 const NativeVideoPlayer = ({ cloudName, publicId }) => {
   const cld = new Cloudinary({ cloud_name: cloudName });
   useEffect(() => {
+
     const videoPlayer = cld.videoPlayer('video-player', {
       muted: true,
       controls: true,
@@ -17,9 +18,8 @@ const NativeVideoPlayer = ({ cloudName, publicId }) => {
     });
   },[])
   return (
-    <div className='mb-5 explainer-video-container'>
+    <div className='mb-5 native-video-container'>
       <video className='cld-video-player cld-fluid' id='video-player' />
-      {/* <video className='cld-video-player' id='video-player' /> */}
     </div>
   );
 };

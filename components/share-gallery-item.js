@@ -5,10 +5,9 @@ import {fill} from "@cloudinary/url-gen/actions/resize";
 
 
 const ShareGalleryItem = ({items}) => {
-// debugger
   const cld = new Cloudinary({
     cloud: {
-      cloudName: "pictures77"
+      cloudName: "cloudinary-training"
     }
   });
 
@@ -17,7 +16,6 @@ const ShareGalleryItem = ({items}) => {
     optImage.resize(fill().width(500).height(500).gravity('auto'));
     optImage.quality('auto')
     optImage.format('auto')
-    // console.log(optImage.toURL())
     return optImage
   }
 

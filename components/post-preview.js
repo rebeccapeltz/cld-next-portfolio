@@ -20,7 +20,7 @@ export default function PostPreview({
           title={title}
           slug={slug}
           publicid={cloudinary.publicId}
-          cloudname={cloudinary.cloudName}
+          cloudname={process.env.cloudname}
         />
       </div>
       <h3 className='text-3xl mb-3 leading-snug'>
@@ -36,7 +36,7 @@ export default function PostPreview({
         name={designer.name}
         picture={designer.picture}
         publicid={designer.publicId}
-        cloudname={designer.cloudName}
+        cloudname={process.env.cloudname}
       />
     </div>
   );

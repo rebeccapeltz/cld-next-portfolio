@@ -6,13 +6,11 @@ coverImage: "/assets/blog/preview/cover.jpg"
 postNumber: "5"
 video: "nextjs-portfolio/bathroom-vid"
 cloudinary:
-  cloudName: "pictures77"
   publicId: "nextjs-portfolio/bathroom"
 designer:
   name: R Jenkins
   picture: "/assets/blog/designers/joe.jpeg"
   publicId: "nextjs-portfolio/designer7"
-  cloudName: "pictures77"
 ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---

@@ -6,13 +6,11 @@ coverImage: "/assets/blog/preview/cover.jpg"
 postNumber: "1"
 video: "nextjs-portfolio/kitchen-vid"
 cloudinary:
-  cloudName: "pictures77"
   publicId: "nextjs-portfolio/kitchen"
 designer:
   name: John Haddad
   picture: "/assets/blog/designers/joe.jpeg"
   publicId: "nextjs-portfolio/designer4"
-  cloudName: "pictures77"
 ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---

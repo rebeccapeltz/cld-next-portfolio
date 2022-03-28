@@ -530,7 +530,7 @@ cloudinary-react@^1.7.0c:
     cloudinary-core "^2.11.3"
     prop-types "^15.6.2"
 
-cloudinary-video-player@^1.8.0:
+cloudinary-video-player@1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/cloudinary-video-player/-/cloudinary-video-player-1.8.0.tgz#34aaaad18cce8ffbe3cdd1944692f774b7d90388"
   integrity sha512-hJBD5yy1mueOIWtijFN6pQfTA6YFC2k/obFFlFFq7Va/WzGeDCaEWFO/yguS2GP2pfyzVwFlS6BnABHf7OWNEQ==

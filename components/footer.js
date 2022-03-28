@@ -1,6 +1,5 @@
 import Container from './container';
 import Link from 'next/link';
-import VideoPlayer from './video-player';
 
 import dynamic from 'next/dynamic';
 const DynamicNativeVideo = dynamic(() => import('./native-video-player'), {
