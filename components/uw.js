@@ -1,12 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import UploadWidgetButton from './uw-button';
-import dynamic from 'next/dynamic';
-
-const DynamicGallery = dynamic(() => import('../components/share-gallery'), {
-  ssr: false,
-});
+import ShareGallery from '../components/share-gallery';
 
 function UploadWidget({ cloudname }) {
+
+  const [key, setKey] = useState(Date.now());
+
   const uploadOpen = () => {
     console.log('call me!');
     uploadWidget.open();
@@ -20,6 +19,7 @@ function UploadWidget({ cloudname }) {
       if (!error && result && result.event === 'success') {
         console.log('Done! Here is the image info: ', result.info);
         //need to refresh gallery
+        setKey(Date.now())
       }
     }
   );
@@ -28,7 +28,7 @@ function UploadWidget({ cloudname }) {
     <div>
        <h4 className="text-center md:text-left text-lg mt-5 mb-5">Use Cloudinary Upload Widget to Upload and share images.</h4>
       <UploadWidgetButton func={uploadOpen} />
-      <DynamicGallery />
+      <ShareGallery key={key} />
     </div>
   );
 }
