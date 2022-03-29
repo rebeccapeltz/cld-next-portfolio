@@ -38,6 +38,7 @@ export default function Post({ post, morePosts, preview }) {
                 coverImage={post.coverImage}
                 postNumber={post.postNumber}
                 designer={post.designer}
+                videoPublicId={post.video}
               />
               <PostBody content={post.content} />
             </article>

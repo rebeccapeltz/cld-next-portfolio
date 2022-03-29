@@ -3,9 +3,10 @@ import PostTitle from '../components/post-title';
 import Tagline from '../components/tag-line';
 import PostImage from './post-image';
 
-import CloudinaryVideoElement from './cloudinary-video-element'
+import CloudinaryVideoElement from './cloudinary-video-element';
 
 import dynamic from 'next/dynamic';
+import { DeliveryAction } from '@cloudinary/url-gen/actions/delivery/DeliveryAction';
 const DynamicNativeVideo = dynamic(() => import('./native-video-player'), {
   ssr: false,
 });
@@ -17,7 +18,10 @@ export default function PostHeader({
   designer,
   video,
   cloudinary,
+  videoPublicId,
 }) {
+  console.log('tagline', tagline);
+
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -34,9 +38,10 @@ export default function PostHeader({
           title={title}
           slug={slug}
           publicid={cloudinary.publicId}
-          cloudname={process.env.cloudname} 
+          cloudname={process.env.cloudname}
         />
       </div>
+    
 
       <div className='max-w-2xl mx-auto'>
         <div className='block md:hidden mb-6'>
@@ -50,6 +55,13 @@ export default function PostHeader({
         <div className='mb-6 text-lg'>
           <Tagline tagline={tagline} />
         </div>{' '}
+
+        <div className='cld-video-element'>
+        <CloudinaryVideoElement
+          cloudname={process.env.cloudname}
+          publicid={videoPublicId}
+        />
+      </div>
       </div>
     </>
   );

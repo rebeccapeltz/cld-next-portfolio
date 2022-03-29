@@ -18,7 +18,8 @@
     margin-bottom: 1rem;
 }
 
-.native-video-container {
+.native-video-container, .cld-video-element {
     max-width: 500px;
     width: 100%;
+    margin: 0 auto;
 }
