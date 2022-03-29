@@ -49,7 +49,7 @@
   dependencies:
     "@cloudinary/html" "^1.2.0"
 
-"@cloudinary/url-gen@^1.7.0":
+"@cloudinary/url-gen@^1.3.0", "@cloudinary/url-gen@^1.7.0":
   version "1.7.0"
   resolved "https://registry.npmjs.org/@cloudinary/url-gen/-/url-gen-1.7.0.tgz"
   integrity sha512-GXbFr4HYFHVcEOGNCFjPUv5LwK00W7s53XDHkZpXE6tv5uINfAucXmq1twPJ7esW3BPxNUjq6CiHyDXqf9YvTg==
@@ -517,7 +517,7 @@ classnames@2.3.1:
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
-cloudinary-core@^2.10.2, cloudinary-core@^2.11.3, cloudinary-core@^2.12.3:
+cloudinary-core@^2.10.2, cloudinary-core@^2.11.3:
   version "2.12.3"
   resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.12.3.tgz#6482e472944214ff905c4852da0a4afce14dec2b"
   integrity sha512-Ll4eDzcrIVn4zCttMh3Mdi+KNz07p5EEjBT2PQSRx8Eok1lKPt3uBBenOk/w88RKK3B8SFIWcEe/mN4BHQ0p8A==
@@ -530,11 +530,12 @@ cloudinary-react@^1.7.0c:
     cloudinary-core "^2.11.3"
     prop-types "^15.6.2"
 
-cloudinary-video-player@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/cloudinary-video-player/-/cloudinary-video-player-1.8.0.tgz#34aaaad18cce8ffbe3cdd1944692f774b7d90388"
-  integrity sha512-hJBD5yy1mueOIWtijFN6pQfTA6YFC2k/obFFlFFq7Va/WzGeDCaEWFO/yguS2GP2pfyzVwFlS6BnABHf7OWNEQ==
+cloudinary-video-player@^1.8.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/cloudinary-video-player/-/cloudinary-video-player-1.9.0.tgz#393134319cc471398e5bb01340b132f0ad7aa65c"
+  integrity sha512-TcqRc55bDiPBrSUkZNWKmG2ZkKmzg7pgnY9C8Ye9G/0NdRyHAzB4Hbl6ZNw2TKP4oxviVY/DSrKYu/k1DQLqjw==
   dependencies:
+    "@cloudinary/url-gen" "^1.3.0"
     dashjs "^4.2.1"
     fetch-ponyfill "^7.1.0"
     promise-polyfill "^8.2.0"

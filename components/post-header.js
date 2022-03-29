@@ -52,7 +52,7 @@ export default function PostHeader({
             cloudname={process.env.cloudname}
           />
         </div>
-        <div className='mb-6 text-lg'>
+        <div className='mb-6 text-2xl text-center'>
           <Tagline tagline={tagline} />
         </div>{' '}
 
