@@ -4,10 +4,10 @@ import {Cloudinary} from "@cloudinary/url-gen";
 import {fill} from "@cloudinary/url-gen/actions/resize";
 
 
-const ShareGalleryItem = ({items}) => {
+const ShareGalleryItem = ({items,cloudname}) => {
   const cld = new Cloudinary({
     cloud: {
-      cloudName: "cloudinary-training"
+      cloudName: cloudname
     }
   });
 

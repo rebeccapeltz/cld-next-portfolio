@@ -44,7 +44,7 @@ const ShareGallery = () => {
     }
     return (
       <section className='overflow-hidden text-gray-700 '>
-        <ShareGalleryItem items={items} />
+        <ShareGalleryItem items={items} cloudname={process.env.cloudname} />
       </section>
     );
   }
