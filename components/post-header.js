@@ -60,6 +60,7 @@ export default function PostHeader({
         <CloudinaryVideoElement
           cloudname={process.env.cloudname}
           publicid={videoPublicId}
+          duration='5'
         />
       </div>
       </div>

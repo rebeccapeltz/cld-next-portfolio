@@ -94,6 +94,9 @@ https://www.pexels.com/video/washing-hands-on-the-bathroom-sink-5942152/
 Video by Ketut Subiyanto from Pexels
 https://www.pexels.com/video/person-climbing-the-stairs-4804832/
 
+Video by Kindel Media: 
+https://www.pexels.com/video/video-of-house-interior-7578544/
+
 Video by Taryn Elliott from Pexels
 https://www.pexels.com/video/a-young-woman-working-at-home-with-a-laptop-4112424/
 
