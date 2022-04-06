@@ -2,14 +2,12 @@
 title: "Bathroom"
 tagline: "Bathroom: The Only Way To Go."
 excerpt: "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/preview/cover.jpg"
 postNumber: "5"
 video: "nextjs-portfolio/bathroom-vid"
 cloudinary:
   publicId: "nextjs-portfolio/bathroom"
 designer:
   name: R Jenkins
-  picture: "/assets/blog/designers/joe.jpeg"
   publicId: "nextjs-portfolio/designer7"
 ogImage:
   url: "/assets/blog/preview/cover.jpg"

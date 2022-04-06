@@ -26,7 +26,7 @@ export default function Post({ post, morePosts, preview }) {
             <article className='mb-32'>
               <Head>
                 <title>
-                  {post.title} | Next.js Portfolio Example with {process.env.mediaMs}
+                  {post.title} | Next.js/Cloudinary Integration with {process.env.mediaMs}
                 </title>
                 <meta property='og:image' content={post.ogImage.url} />
               </Head>
@@ -35,7 +35,6 @@ export default function Post({ post, morePosts, preview }) {
                 cloudinary={post.cloudinary}
                 video={post.video}
                 tagline={post.tagline}
-                coverImage={post.coverImage}
                 postNumber={post.postNumber}
                 designer={post.designer}
                 videoPublicId={post.video}
@@ -60,7 +59,6 @@ export async function getStaticProps({ params }) {
     'designer',
     'content',
     'ogImage',
-    'coverImage',
   ]);
   const content = await markdownToHtml(post.content || '');
 

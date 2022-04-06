@@ -110,8 +110,4 @@ https://www.pexels.com/video/people-talking-in-kitchen-4781506/
 [Unspslash](https://unsplash.com/s/photos/face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
 
-## Problems
-Loading video player scripts in body
-
-https://github.com/vercel/next.js/discussions/11007
 

@@ -14,14 +14,13 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Next.js Portfolio Example with {process.env.mediaMs}</title>
+          <title>Next.js/Cloudinary Integration with {process.env.mediaMs}</title>
         </Head>
         <Container>
           <Intro />
            {heroPost && (
             <HeroPost
               title={heroPost.title}
-              coverImage={heroPost.coverImage}
               tagline={heroPost.tagline}
               postNumber={heroPost.postNumber}
               designer={heroPost.designer}
@@ -45,7 +44,6 @@ export async function getStaticProps() {
     "slug",
     "cloudinary",
     "designer",
-    "coverImage",
     "excerpt",
   ]);
 

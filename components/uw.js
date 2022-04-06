@@ -7,7 +7,6 @@ function UploadWidget() {
   const [key, setKey] = useState(Date.now());
 
   const uploadOpen = () => {
-    console.log('call me!');
     uploadWidget.open();
   };
   const uploadWidget = window.cloudinary.createUploadWidget(
@@ -23,7 +22,6 @@ function UploadWidget() {
       }
     }
   );
-
   return (
     <div>
        <h4 className="text-center md:text-left text-lg mt-5 mb-5">Use Cloudinary Upload Widget to Upload and share images.</h4>

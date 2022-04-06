@@ -26,7 +26,7 @@ export default function Alert({ preview }) {
             <>
               The source code for this blog is{' '}
               <a
-                href={`https://github.com/rebeccapeltz/cld-next-portfolio`}
+                href={`https://github.com/cloudinary-training/cloudinary-nextjs-portfolio`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
                 available on GitHub

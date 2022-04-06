@@ -19,8 +19,7 @@ const ShareGallery = () => {
       }
       setIsLoaded(true);
     } catch (err) {
-      console.log('Error loading data');
-      console.log(err);
+      console.log('Error loading data',err);
       setError(err);
       setItems([]);
       setIsLoaded(false);

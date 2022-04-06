@@ -5,7 +5,6 @@ import ShareHeader from '../components/share-header';
 
 import dynamic from 'next/dynamic';
 
-
 const DynamicUploadWidget = dynamic(() => import('../components/uw'), {
   ssr: false,
 });
@@ -19,7 +18,6 @@ export default function Share() {
           <meta property='og:image' content={process.env.homeOGImageURL} />
           <ShareHeader />
           <DynamicUploadWidget />
-        
         </article>
       </Container>
     </Layout>

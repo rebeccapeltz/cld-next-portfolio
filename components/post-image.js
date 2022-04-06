@@ -1,19 +1,10 @@
-import cn from 'classnames';
-import Link from 'next/link';
-import { Cloudinary } from '@cloudinary/url-gen';
+import { CloudinaryImage } from '@cloudinary/url-gen';
+// Using the Next.js Image component
 import Image from 'next/image';
 
-export default function PostImage({ title, slug, publicid, cloudname }) {
-  const cld = new Cloudinary({
-    cloud: {
-      cloudName: cloudname,
-      secure: true,
-    },
-  });
+export default function PostImage({ title, publicid, cloudname }) {
 
-  const cldImage = cld.image(publicid).toURL();
-
-  
+  const cldImage = new CloudinaryImage(publicid, {cloudName:cloudname,analytics:false}).toURL();
   return (
     <div className='sm:mx-0'>
       <Image

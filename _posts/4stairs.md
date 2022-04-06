@@ -2,14 +2,12 @@
 title: "The Staircase"
 tagline: "Take A Flight Of Stairs."
 excerpt: "1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 postNumber: "4"
 video: "nextjs-portfolio/stairs-vid"
 cloudinary:
   publicId: "nextjs-portfolio/stairs"
 designer:
   name: "Sarah Sharpe"
-  picture: "/assets/blog/designers/jj.jpeg"
   publicId: "nextjs-portfolio/designer1"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"

@@ -13,7 +13,6 @@ export default function MoreStories({ posts }) {
             tagline={post.tagline}
             cloudinary={post.cloudinary}
             title={post.title}
-            coverImage={post.coverImage}
             postNumber={post.postNumber}
             designer={post.designer}
             slug={post.slug}

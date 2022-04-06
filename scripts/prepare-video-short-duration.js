@@ -7,18 +7,18 @@ function update(publicId) {
     eager: [
       {
         format: "mp4",
-        transformation: [{ duration: "3" }],
+        transformation: [{ duration: "5" }],
       },
       {
         format: "webm",
-        transformation: [{ duration: "3" }],
+        transformation: [{ duration: "5" }],
       },
       {
         format: "jpg",
       },
       {
         format: "ogv",
-        transformation: [{ duration: "3" }],
+        transformation: [{ duration: "5" }],
       },
     ],
     type: 'upload',

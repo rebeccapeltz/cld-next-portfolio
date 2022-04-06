@@ -17,7 +17,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Footer() {
   return (
-    <footer className='bg-accent-1 border-t border-accent-2'>
+    <footer className='mb-8 bg-accent-1 border-t border-accent-2'>
       <Container>
         <div className='flex flex-col lg:flex-row justify-center items-center lg:pl-4 '>
           <section className='flex flex-col justify-self-auto items-center lg:pl-4'>
